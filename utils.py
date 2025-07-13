@@ -1,3 +1,4 @@
+import math 
 def palindrome_func(val):
     if not isinstance(val, str):
          val = str(val)
@@ -5,3 +6,17 @@ def palindrome_func(val):
         return True
     else:
         return False
+
+class Circle:
+    def __init__(self,radius):
+        self.radius = radius
+        
+    def area(self):
+        ar = self.radius**2*math.pi
+        return ar
+    
+    def perimeter(self):
+        perimeter = 2*self.radius*math.pi
+        return perimeter
+    
+    

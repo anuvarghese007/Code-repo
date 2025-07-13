@@ -1,2 +1,5 @@
-import utils as u
-print(u.palindrome_func(323))
+from utils import *
+    
+c = Circle(4)
+print(c.area())
+print(c.perimeter())
