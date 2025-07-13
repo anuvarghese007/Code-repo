@@ -15,7 +15,7 @@ class Circle:
     Gives the features of a circle
     """
 
-    def __init__(self, radius: float):
+    def __init__(self, radius: float=1):
         """
         Initialize a circle.
         
