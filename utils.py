@@ -1,6 +1,5 @@
 def palindrome_func(val):
-    curr = 0
-    if isinstance(val, int):
+    if not isinstance(val, str):
          val = str(val)
     if val[::-1] == val:
         return True
