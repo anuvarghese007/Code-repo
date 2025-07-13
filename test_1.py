@@ -1,2 +1,4 @@
 import utils as ur
-print(ur.palindrome_func('sas')) 
+val=111
+#print(isinstance(val,int))
+print(ur.palindrome_func(val))    
